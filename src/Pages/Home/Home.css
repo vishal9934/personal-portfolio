@@ -1,9 +1,13 @@
-@media (max-width: 1012px) {
+@media (min-width: 387px) and (max-width:1012px) {
     .btn-custom{
-        margin-top: 3rem;
+        margin-top: 5rem;
+      }
+  }
+  @media (max-width: 386px) {
+    .btn-custom{
+        margin-top: 8rem;
       }
   }
   .btn-custom{
     margin-left: 10rem;
-    
   }
