@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Home2.css"
 import img from "../../Assets/vk2.png"
+
 import {
   AiFillGithub,
   AiOutlineTwitter,

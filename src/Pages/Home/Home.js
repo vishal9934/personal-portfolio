@@ -7,6 +7,8 @@ import Type from "./Type";
 import MediaLink from "../../components/Socialmedia/MediaLink"
 import Home2 from "./Home2"
 import Footer from "../../components/Footer";
+import Button from 'react-bootstrap/Button';
+import "./Home.css"
 function Home() {
   return (
     <section>
@@ -52,6 +54,11 @@ function Home() {
         
       </Container>
       <MediaLink/>
+      <Button 
+        variant="custom" 
+        href='https://drive.google.com/file/d/1-hplmkWFHjQsFeRNj8yPA77MDG1vvRBY/view?usp=sharing'
+        target="_blank"
+        style={{ color: 'white' ,fontFamily:"large"}} size='lg'>See My Resume</Button>
       <Home2/>
       <Footer/>
     </section>
